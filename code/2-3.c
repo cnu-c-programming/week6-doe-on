@@ -5,7 +5,7 @@ void print_2d_arr(int* element, int row_size, int col_size) {
         for (int j=0; j<col_size; j++) {
             printf("%d ", *(element + (i * col_size + j)));
         }
-
+        printf("\n");
     }
 }
 
