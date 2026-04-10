@@ -10,7 +10,7 @@ void print_arr(int* p, int size) {
 int main() {
     int arr[5] = {1,2,3,4,5};
 
-    pritnf("%zu\n", sizeof(arr));
+    printf("%zu\n", sizeof(arr));
     for (int i=0; i<5; i++)
         printf("%d ", *(arr + i));
     printf("\n");
